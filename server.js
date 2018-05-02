@@ -48,7 +48,7 @@ app.set('view engine', 'ejs');*/
 
 app.use(webpackDevMiddleware(webpack(webpackConfig)));
 // app.use(express.static(path.join(__dirname, 'public')));
-app.use(express.static(__dirname + '/browsables/public'))
+app.use(express.static(__dirname + '/public_html'))
 // app.use(express.static(__dirname + '/build'))
 
 app.use(logger('dev'));
