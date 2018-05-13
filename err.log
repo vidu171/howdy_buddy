@@ -1,0 +1,15 @@
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 0.0.0.0:80
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1271:14)
+    at listen (net.js:1307:10)
+    at Server.listen (net.js:1403:5)
+    at EventEmitter.listen (/home/howdyweb/howdy_buddy/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/howdyweb/howdy_buddy/server.js:136:5)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
