@@ -1,0 +1,1702 @@
+listening on port:  80
+Hash: 396f0bfb9d565b6f60f0
+Version: webpack 1.12.14
+Time: 562ms
+
+ERROR in ./public/quickstart.js
+Module build failed: TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:7:11)
+    at Object.dirname (path.js:1330:5)
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:365:36
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:387:22
+    at Array.map (native)
+    at OptionManager.resolvePresets (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:376:20)
+    at OptionManager.mergePresets (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:360:10)
+    at OptionManager.mergeOptions (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:319:14)
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:361:14
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:381:24
+webpack: bundle is now VALID.
+[0mGET /img/logo.png [33m404 [0m3.633 ms - 151[0m
+[0mGET /img/g2.jpg [33m404 [0m0.926 ms - 149[0m
+[0mGET /img/g1.jpg [33m404 [0m0.725 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.237 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.192 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.202 ms - 161[0m
+[0mGET /img/g4.jpg [33m404 [0m0.171 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.208 ms - 149[0m
+[0mGET /img/b1.jpg [33m404 [0m0.200 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.203 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.198 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.312 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.119 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.167 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.190 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.120 ms - 161[0m
+[0mGET /img/logo.png [33m404 [0m0.256 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.570 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.236 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.298 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.161 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.397 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.281 ms - 161[0m
+[0mGET /img/b2.jpg [33m404 [0m0.192 ms - 149[0m
+[0mGET /img/b1.jpg [33m404 [0m0.384 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.204 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.344 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.274 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.472 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.247 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.399 ms - 161[0m
+[0mGET /img/l5.png [33m404 [0m0.284 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.244 ms - 161[0m
+[0mGET /quickstart [36m301 [0m6.483 ms - 187[0m
+[0mGET /quickstart/ [32m200 [0m4.836 ms - 770[0m
+[0mGET /quickstart/index.css [32m200 [0m9.670 ms - 6277[0m
+[0mGET /quickstart/index.js [32m200 [0m8.231 ms - 897808[0m
+[0mGET /token [32m200 [0m6.090 ms - 476[0m
+[0mGET /img/logo.png [33m404 [0m1.193 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.463 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.282 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.219 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.286 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.186 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.830 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.230 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.215 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.184 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.211 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.186 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.131 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.097 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.167 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.110 ms - 161[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.192 ms - 161[0m
+[0mGET /img/fav.png [33m404 [0m0.230 ms - 150[0m
+[0mGET /whm-server-status [33m404 [0m0.753 ms - 156[0m
+[0mGET /.well-known/pki-validation/8EBEB879DEAB58C012FB0300CA3F6C28.txt [33m404 [0m0.216 ms - 202[0m
+[0mGET /.well-known/pki-validation/39167E88F4C2EB48F35809B4F0A23FD1.txt [33m404 [0m0.274 ms - 202[0m
+[0mGET /whm-server-status [33m404 [0m0.281 ms - 156[0m
+[0mGET /robots.txt [33m404 [0m0.328 ms - 149[0m
+[0mGET /favicon.ico [33m404 [0m0.174 ms - 150[0m
+[0mGET /img/logo.png [33m404 [0m0.450 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.241 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.173 ms - 161[0m
+[0mGET /img/g3.jpg [33m404 [0m0.384 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.153 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.169 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.230 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.091 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.502 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.176 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.157 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.117 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.230 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.130 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.355 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.091 ms - 161[0m
+[0mGET /whm-server-status [33m404 [0m0.485 ms - 156[0m
+[0mGET /img/logo.png [33m404 [0m0.216 ms - 151[0m
+[0mGET /img/g3.jpg [33m404 [0m0.200 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.128 ms - 149[0m
+[0mGET /img/g1.jpg [33m404 [0m0.143 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.246 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.362 ms - 149[0m
+[0mGET /img/b1.jpg [33m404 [0m0.128 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.167 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.180 ms - 161[0m
+[0mGET /img/b3.jpg [33m404 [0m0.194 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.156 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.244 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.089 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.202 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.135 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.134 ms - 161[0m
+[0mGET /img/logo.png [33m404 [0m0.164 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.172 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.231 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.275 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.166 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.128 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.275 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.205 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.231 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.229 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.151 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.255 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.246 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.192 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.188 ms - 161[0m
+[0mGET /img/l5.png [33m404 [0m0.181 ms - 149[0m
+[0mGET /whm-server-status [33m404 [0m0.104 ms - 156[0m
+[0mGET /img/logo.png [33m404 [0m0.183 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.228 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.175 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.231 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.168 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.221 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.114 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.163 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.223 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.115 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.147 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.109 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.163 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.181 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.141 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.197 ms - 161[0m
+[0mGET /whm-server-status [33m404 [0m0.209 ms - 156[0m
+[0mGET /img/logo.png [33m404 [0m0.221 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.267 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m2.157 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.093 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.143 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.114 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.492 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m1.184 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.137 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.088 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.161 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.169 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.151 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.092 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.212 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.139 ms - 161[0m
+[0mGET /img/logo.png [33m404 [0m0.166 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.190 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.194 ms - 149[0m
+[0mGET /img/fav.png [33m404 [0m0.199 ms - 150[0m
+[0mGET /whm-server-status [33m404 [0m0.154 ms - 156[0m
+[0mGET /img/logo.png [33m404 [0m0.208 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.153 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m1.020 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.377 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.110 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.206 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.160 ms - 161[0m
+[0mGET /img/b2.jpg [33m404 [0m0.180 ms - 149[0m
+[0mGET /img/b1.jpg [33m404 [0m0.113 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.122 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.226 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.162 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.140 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.123 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.088 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.151 ms - 161[0m
+[0mGET /img/logo.png [33m404 [0m0.167 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.220 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.163 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.189 ms - 149[0m
+[0mGET /whm-server-status [33m404 [0m0.203 ms - 156[0m
+[0mGET /cpanel [33m404 [0m0.205 ms - 145[0m
+[0mGET /whm-server-status [33m404 [0m0.136 ms - 156[0m
+[0mGET /cpanel [33m404 [0m0.264 ms - 145[0m
+[0mGET /cpanel [33m404 [0m0.228 ms - 145[0m
+[0mGET /whm-server-status [33m404 [0m0.239 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.222 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.136 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.183 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.162 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.159 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.155 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.151 ms - 156[0m
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 0.0.0.0:80
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1271:14)
+    at listen (net.js:1307:10)
+    at Server.listen (net.js:1403:5)
+    at EventEmitter.listen (/home/howdyweb/howdy_buddy/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/howdyweb/howdy_buddy/server.js:136:5)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+listening on port:  80
+Hash: 396f0bfb9d565b6f60f0
+Version: webpack 1.12.14
+Time: 2037ms
+
+ERROR in ./public/quickstart.js
+Module build failed: TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:7:11)
+    at Object.dirname (path.js:1330:5)
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:365:36
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:387:22
+    at Array.map (native)
+    at OptionManager.resolvePresets (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:376:20)
+    at OptionManager.mergePresets (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:360:10)
+    at OptionManager.mergeOptions (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:319:14)
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:361:14
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:381:24
+webpack: bundle is now VALID.
+[0mGET /img/logo.png [33m404 [0m2.503 ms - 151[0m
+[0mGET /img/g2.jpg [33m404 [0m0.805 ms - 149[0m
+[0mGET /img/g1.jpg [33m404 [0m0.618 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.173 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.220 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.472 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.271 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.184 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.203 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.433 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.112 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.156 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.216 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.127 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.213 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.125 ms - 161[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.384 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.131 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.183 ms - 161[0m
+[0mGET /img/b3.jpg [33m404 [0m0.155 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.208 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.110 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.141 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.172 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.145 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.130 ms - 149[0m
+[0mGET /img/logo.png [33m404 [0m0.836 ms - 151[0m
+[0mGET /img/g3.jpg [33m404 [0m0.400 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.305 ms - 149[0m
+[0mGET /img/g1.jpg [33m404 [0m0.155 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.192 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.109 ms - 161[0m
+[0mGET /img/b2.jpg [33m404 [0m0.463 ms - 149[0m
+[0mGET /img/b1.jpg [33m404 [0m0.095 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.086 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.115 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.150 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.350 ms - 161[0m
+[0mGET /img/l4.png [33m404 [0m0.179 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.144 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.155 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.157 ms - 161[0m
+[0mGET /whm-server-status [33m404 [0m0.924 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.320 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.350 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.164 ms - 156[0m
+[0mGET /img/logo.png [33m404 [0m0.519 ms - 151[0m
+[0mGET /img/g2.jpg [33m404 [0m0.339 ms - 149[0m
+[0mGET /img/g1.jpg [33m404 [0m0.137 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.133 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.151 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.165 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.256 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.152 ms - 161[0m
+[0mGET /img/b2.jpg [33m404 [0m0.109 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.167 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.165 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.176 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.169 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.294 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.717 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.165 ms - 161[0m
+listening on port:  80
+Hash: 396f0bfb9d565b6f60f0
+Version: webpack 1.12.14
+Time: 562ms
+
+ERROR in ./public/quickstart.js
+Module build failed: TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:7:11)
+    at Object.dirname (path.js:1330:5)
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:365:36
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:387:22
+    at Array.map (native)
+    at OptionManager.resolvePresets (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:376:20)
+    at OptionManager.mergePresets (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:360:10)
+    at OptionManager.mergeOptions (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:319:14)
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:361:14
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:381:24
+webpack: bundle is now VALID.
+[0mGET /whm-server-status [33m404 [0m2.946 ms - 156[0m
+[0mGET /img/logo.png [33m404 [0m1.008 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.863 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.884 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.303 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.172 ms - 149[0m
+[0mGET /img/b1.jpg [33m404 [0m0.362 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.166 ms - 161[0m
+[0mGET /img/b2.jpg [33m404 [0m0.440 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.165 ms - 161[0m
+[0mGET /img/b3.jpg [33m404 [0m0.377 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.148 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.177 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.141 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.126 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.192 ms - 161[0m
+[0mGET /img/l1.png [33m404 [0m0.653 ms - 149[0m
+[0mGET /img/logo.png [33m404 [0m0.645 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.351 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.179 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m1.203 ms - 149[0m
+[0mGET /img/b1.jpg [33m404 [0m0.205 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.092 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.112 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.104 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.163 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.133 ms - 161[0m
+[0mGET /img/l1.png [33m404 [0m0.191 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.139 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.104 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.129 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.601 ms - 161[0m
+[0mGET /img/l5.png [33m404 [0m0.194 ms - 149[0m
+[0mGET /img/logo.png [33m404 [0m0.140 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.152 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.205 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.154 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.106 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.116 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.152 ms - 161[0m
+[0mGET /img/b2.jpg [33m404 [0m0.203 ms - 149[0m
+[0mGET /img/b1.jpg [33m404 [0m0.104 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.136 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.211 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.118 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.105 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.207 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.185 ms - 161[0m
+[0mGET /img/l5.png [33m404 [0m0.396 ms - 149[0m
+[0mGET /whm-server-status [33m404 [0m0.377 ms - 156[0m
+listening on port:  80
+Hash: 396f0bfb9d565b6f60f0
+Version: webpack 1.12.14
+Time: 544ms
+
+ERROR in ./public/quickstart.js
+Module build failed: TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:7:11)
+    at Object.dirname (path.js:1330:5)
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:365:36
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:387:22
+    at Array.map (native)
+    at OptionManager.resolvePresets (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:376:20)
+    at OptionManager.mergePresets (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:360:10)
+    at OptionManager.mergeOptions (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:319:14)
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:361:14
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:381:24
+webpack: bundle is now VALID.
+[0mGET /img/logo.png [33m404 [0m2.999 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m1.283 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.642 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.176 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.217 ms - 149[0m
+[0mGET /img/b1.jpg [33m404 [0m0.142 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.118 ms - 161[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.130 ms - 161[0m
+[0mGET /img/b3.jpg [33m404 [0m0.167 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.132 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.344 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.458 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.205 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.221 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.535 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.308 ms - 161[0m
+[0mGET /img/logo.png [33m404 [0m0.682 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.507 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.314 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.220 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.172 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.199 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.189 ms - 161[0m
+[0mGET /img/g4.jpg [33m404 [0m0.129 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.399 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.386 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.162 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.165 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.183 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.382 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.364 ms - 161[0m
+[0mGET /img/l5.png [33m404 [0m1.141 ms - 149[0m
+[0mGET /img/logo.png [33m404 [0m0.667 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.406 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.206 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.390 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.116 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.116 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.142 ms - 161[0m
+[0mGET /img/b2.jpg [33m404 [0m0.149 ms - 149[0m
+[0mGET /img/b1.jpg [33m404 [0m0.139 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.367 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.119 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.174 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.141 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.110 ms - 161[0m
+[0mGET /img/l5.png [33m404 [0m0.156 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.106 ms - 149[0m
+[0mGET /img/logo.png [33m404 [0m0.467 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.543 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.268 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.120 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.107 ms - 149[0m
+[0mGET /img/b1.jpg [33m404 [0m0.207 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.100 ms - 161[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.150 ms - 161[0m
+[0mGET /img/b3.jpg [33m404 [0m0.227 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.144 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.164 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.156 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.230 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.232 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.177 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.951 ms - 161[0m
+[0mGET /whm-server-status [33m404 [0m0.947 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.592 ms - 156[0m
+[0mGET /img/logo.png [33m404 [0m0.231 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.164 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.123 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.183 ms - 161[0m
+[0mGET /img/g3.jpg [33m404 [0m0.117 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.110 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.258 ms - 161[0m
+[0mGET /img/b2.jpg [33m404 [0m0.125 ms - 149[0m
+[0mGET /img/b1.jpg [33m404 [0m0.214 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.120 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.105 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.100 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.216 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.203 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.106 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.155 ms - 161[0m
+[0mGET /whm-server-status [33m404 [0m0.092 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.143 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.113 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m1.235 ms - 156[0m
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 0.0.0.0:80
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1271:14)
+    at listen (net.js:1307:10)
+    at Server.listen (net.js:1403:5)
+    at EventEmitter.listen (/home/howdyweb/howdy_buddy/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/howdyweb/howdy_buddy/server.js:136:5)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 0.0.0.0:80
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1271:14)
+    at listen (net.js:1307:10)
+    at Server.listen (net.js:1403:5)
+    at EventEmitter.listen (/home/howdyweb/howdy_buddy/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/howdyweb/howdy_buddy/server.js:136:5)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 0.0.0.0:80
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1271:14)
+    at listen (net.js:1307:10)
+    at Server.listen (net.js:1403:5)
+    at EventEmitter.listen (/home/howdyweb/howdy_buddy/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/howdyweb/howdy_buddy/server.js:136:5)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 0.0.0.0:80
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1271:14)
+    at listen (net.js:1307:10)
+    at Server.listen (net.js:1403:5)
+    at EventEmitter.listen (/home/howdyweb/howdy_buddy/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/howdyweb/howdy_buddy/server.js:136:5)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 0.0.0.0:80
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1271:14)
+    at listen (net.js:1307:10)
+    at Server.listen (net.js:1403:5)
+    at EventEmitter.listen (/home/howdyweb/howdy_buddy/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/howdyweb/howdy_buddy/server.js:136:5)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+listening on port:  80
+Hash: 396f0bfb9d565b6f60f0
+Version: webpack 1.12.14
+Time: 554ms
+
+ERROR in ./public/quickstart.js
+Module build failed: TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:7:11)
+    at Object.dirname (path.js:1330:5)
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:365:36
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:387:22
+    at Array.map (native)
+    at OptionManager.resolvePresets (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:376:20)
+    at OptionManager.mergePresets (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:360:10)
+    at OptionManager.mergeOptions (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:319:14)
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:361:14
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:381:24
+webpack: bundle is now VALID.
+[0mGET /img/logo.png [33m404 [0m2.713 ms - 151[0m
+listening on port:  80
+Hash: 396f0bfb9d565b6f60f0
+Version: webpack 1.12.14
+Time: 533ms
+
+ERROR in ./public/quickstart.js
+Module build failed: TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:7:11)
+    at Object.dirname (path.js:1330:5)
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:365:36
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:387:22
+    at Array.map (native)
+    at OptionManager.resolvePresets (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:376:20)
+    at OptionManager.mergePresets (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:360:10)
+    at OptionManager.mergeOptions (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:319:14)
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:361:14
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:381:24
+webpack: bundle is now VALID.
+[0mGET /img/logo.png [33m404 [0m2.550 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.918 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.538 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.135 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.201 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.528 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.160 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.114 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.124 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.155 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.534 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.290 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.116 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.126 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.442 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.248 ms - 161[0m
+[0mGET /img/logo.png [33m404 [0m0.934 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.363 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.138 ms - 149[0m
+[0mGET /img/logo.png [33m404 [0m0.564 ms - 151[0m
+[0mGET /img/g4.jpg [33m404 [0m0.194 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.184 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.120 ms - 149[0m
+[0mGET /img/g1.jpg [33m404 [0m0.125 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.265 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.128 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.270 ms - 161[0m
+[0mGET /img/b2.jpg [33m404 [0m0.357 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.255 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.348 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.828 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.331 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.365 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.095 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.254 ms - 161[0m
+[0mGET /img/logo.png [33m404 [0m0.196 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.170 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.129 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.110 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.185 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.191 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.149 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m1.991 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.104 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.114 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.167 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.100 ms - 161[0m
+[0mGET /img/l3.png [33m404 [0m0.168 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.611 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.121 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.114 ms - 161[0m
+[0mGET /whm-server-status [33m404 [0m0.334 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.342 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.147 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.149 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.140 ms - 156[0m
+[0mGET /img/logo.png [33m404 [0m0.474 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.411 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.159 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.204 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m1.609 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.292 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.219 ms - 161[0m
+[0mGET /img/b2.jpg [33m404 [0m0.289 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.129 ms - 149[0m
+[0mGET /img/b1.jpg [33m404 [0m0.435 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.254 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.350 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.400 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.112 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.179 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.217 ms - 161[0m
+[0mGET /img/logo.png [33m404 [0m0.170 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.186 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.150 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.097 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.138 ms - 161[0m
+[0mGET /img/g3.jpg [33m404 [0m0.111 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.161 ms - 161[0m
+[0mGET /img/b2.jpg [33m404 [0m0.683 ms - 149[0m
+[0mGET /img/b1.jpg [33m404 [0m0.124 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.930 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.091 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.098 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.162 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.200 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.134 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.142 ms - 161[0m
+[0mGET /img/logo.png [33m404 [0m0.158 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.172 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.833 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.156 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.192 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.248 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.178 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.188 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.180 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.208 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.165 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.174 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.202 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.228 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.148 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.211 ms - 161[0m
+[0mGET /whm-server-status [33m404 [0m0.152 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.145 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.119 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.106 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.099 ms - 156[0m
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 0.0.0.0:80
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1271:14)
+    at listen (net.js:1307:10)
+    at Server.listen (net.js:1403:5)
+    at EventEmitter.listen (/home/howdyweb/howdy_buddy/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/howdyweb/howdy_buddy/server.js:136:5)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+error: Forever detected script exited with code: 1
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+listening on port:  80
+Hash: 396f0bfb9d565b6f60f0
+Version: webpack 1.12.14
+Time: 551ms
+
+ERROR in ./public/quickstart.js
+Module build failed: TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:7:11)
+    at Object.dirname (path.js:1330:5)
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:365:36
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:387:22
+    at Array.map (native)
+    at OptionManager.resolvePresets (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:376:20)
+    at OptionManager.mergePresets (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:360:10)
+    at OptionManager.mergeOptions (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:319:14)
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:361:14
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:381:24
+webpack: bundle is now VALID.
+[0mGET /img/logo.png [33m404 [0m2.769 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.858 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.697 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.204 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.136 ms - 149[0m
+[0mGET /img/b1.jpg [33m404 [0m0.205 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.123 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.182 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.191 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.159 ms - 161[0m
+[0mGET /img/l1.png [33m404 [0m0.309 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.199 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.233 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.159 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.245 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.242 ms - 161[0m
+[0mGET /img/fav.png [33m404 [0m0.485 ms - 150[0m
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+listening on port:  80
+Hash: 396f0bfb9d565b6f60f0
+Version: webpack 1.12.14
+Time: 551ms
+
+ERROR in ./public/quickstart.js
+Module build failed: TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:7:11)
+    at Object.dirname (path.js:1330:5)
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:365:36
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:387:22
+    at Array.map (native)
+    at OptionManager.resolvePresets (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:376:20)
+    at OptionManager.mergePresets (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:360:10)
+    at OptionManager.mergeOptions (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:319:14)
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:361:14
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:381:24
+webpack: bundle is now VALID.
+[0mGET /img/logo.png [33m404 [0m2.512 ms - 151[0m
+[0mGET /img/g2.jpg [33m404 [0m0.767 ms - 149[0m
+[0mGET /img/g1.jpg [33m404 [0m0.578 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.179 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.175 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.145 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.208 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.106 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.244 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.209 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.126 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.174 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.104 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.241 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.144 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.365 ms - 161[0m
+[0mGET /img/l1.png [33m404 [0m0.454 ms - 149[0m
+[0mGET /img/b1.jpg [33m404 [0m0.139 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.124 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.205 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.135 ms - 161[0m
+[0mGET /img/l4.png [33m404 [0m0.238 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.249 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.130 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.189 ms - 161[0m
+[0mGET /img/logo.png [33m404 [0m0.267 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.308 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.176 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.194 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.110 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.116 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.322 ms - 161[0m
+[0mGET /img/logo.png [33m404 [0m0.465 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.756 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.387 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.903 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.295 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.211 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.148 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.121 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.345 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.274 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.115 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.244 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.153 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.182 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.306 ms - 161[0m
+[0mGET /img/l5.png [33m404 [0m0.152 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.182 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.160 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.129 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.391 ms - 149[0m
+[0mGET /whm-server-status [33m404 [0m1.099 ms - 156[0m
+[0mGET /img/logo.png [33m404 [0m0.753 ms - 151[0m
+[0mGET /img/logo.png [33m404 [0m0.578 ms - 151[0m
+[0mGET /img/g3.jpg [33m404 [0m0.311 ms - 149[0m
+[0mGET /img/g1.jpg [33m404 [0m0.155 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.220 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.225 ms - 161[0m
+[0mGET /img/g4.jpg [33m404 [0m1.251 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.149 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.164 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.139 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.098 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.104 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.484 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.091 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.176 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.093 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.116 ms - 161[0m
+[0mGET /img/logo.png [33m404 [0m0.132 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.161 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.137 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.096 ms - 149[0m
+[0mGET /img/b1.jpg [33m404 [0m0.144 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.091 ms - 161[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.163 ms - 161[0m
+[0mGET /img/g4.jpg [33m404 [0m0.558 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.197 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.086 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m1.240 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.144 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.099 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.108 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.141 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.094 ms - 161[0m
+[0mGET /img/logo.png [33m404 [0m0.235 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.203 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.217 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.098 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.137 ms - 161[0m
+[0mGET /img/g4.jpg [33m404 [0m0.137 ms - 149[0m
+[0mGET /img/b1.jpg [33m404 [0m0.186 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.220 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.180 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m1.459 ms - 161[0m
+[0mGET /img/l2.png [33m404 [0m0.111 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.087 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.180 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.105 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.104 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.081 ms - 161[0m
+[0mGET /img/fav.png [33m404 [0m0.151 ms - 150[0m
+[0mGET /img/logo.png [33m404 [0m0.222 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.246 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.199 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.088 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.095 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.088 ms - 161[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.144 ms - 161[0m
+error: Forever detected script was killed by signal: SIGTERM
+error: Script restart attempt #1
+listening on port:  80
+Hash: 396f0bfb9d565b6f60f0
+Version: webpack 1.12.14
+Time: 527ms
+
+ERROR in ./public/quickstart.js
+Module build failed: TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:7:11)
+    at Object.dirname (path.js:1330:5)
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:365:36
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:387:22
+    at Array.map (native)
+    at OptionManager.resolvePresets (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:376:20)
+    at OptionManager.mergePresets (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:360:10)
+    at OptionManager.mergeOptions (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:319:14)
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:361:14
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:381:24
+webpack: bundle is now VALID.
+[0mGET /img/b2.jpg [33m404 [0m4.025 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.901 ms - 149[0m
+[0mGET /img/b1.jpg [33m404 [0m0.636 ms - 149[0m
+[0mGET /img/logo.png [33m404 [0m1.298 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m1.030 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.522 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.588 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.550 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.428 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.189 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.175 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.186 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.120 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.154 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m21.989 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.457 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.339 ms - 161[0m
+[0mGET /img/l5.png [33m404 [0m0.258 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.195 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.512 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.300 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.255 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.133 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.179 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.389 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.142 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.126 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.182 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m1.089 ms - 161[0m
+[0mGET /whm-server-status [33m404 [0m0.514 ms - 156[0m
+[0mGET /img/logo.png [33m404 [0m0.545 ms - 151[0m
+[0mGET /img/g3.jpg [33m404 [0m0.222 ms - 149[0m
+[0mGET /img/g1.jpg [33m404 [0m0.302 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.100 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.123 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.094 ms - 161[0m
+[0mGET /img/b2.jpg [33m404 [0m0.463 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.199 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.163 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.166 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.360 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.201 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m1.610 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.170 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.105 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.147 ms - 161[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.085 ms - 161[0m
+error: Forever detected script was killed by signal: SIGTERM
+error: Script restart attempt #2
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 0.0.0.0:80
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1271:14)
+    at listen (net.js:1307:10)
+    at Server.listen (net.js:1403:5)
+    at EventEmitter.listen (/home/howdyweb/howdy_buddy/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/howdyweb/howdy_buddy/server.js:136:5)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+error: Forever detected script exited with code: 1
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 0.0.0.0:80
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1271:14)
+    at listen (net.js:1307:10)
+    at Server.listen (net.js:1403:5)
+    at EventEmitter.listen (/home/howdyweb/howdy_buddy/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/howdyweb/howdy_buddy/server.js:136:5)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+error: Forever detected script exited with code: 1
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 0.0.0.0:80
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1271:14)
+    at listen (net.js:1307:10)
+    at Server.listen (net.js:1403:5)
+    at EventEmitter.listen (/home/howdyweb/howdy_buddy/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/howdyweb/howdy_buddy/server.js:136:5)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #1
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 0.0.0.0:80
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1271:14)
+    at listen (net.js:1307:10)
+    at Server.listen (net.js:1403:5)
+    at EventEmitter.listen (/home/howdyweb/howdy_buddy/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/howdyweb/howdy_buddy/server.js:136:5)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+error: Forever detected script exited with code: 1
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+listening on port:  80
+Hash: 396f0bfb9d565b6f60f0
+Version: webpack 1.12.14
+Time: 2091ms
+
+ERROR in ./public/quickstart.js
+Module build failed: TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:7:11)
+    at Object.dirname (path.js:1330:5)
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:365:36
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:387:22
+    at Array.map (native)
+    at OptionManager.resolvePresets (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:376:20)
+    at OptionManager.mergePresets (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:360:10)
+    at OptionManager.mergeOptions (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:319:14)
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:361:14
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:381:24
+webpack: bundle is now VALID.
+[0mGET /img/logo.png [33m404 [0m2.753 ms - 151[0m
+[0mGET /img/g3.jpg [33m404 [0m0.867 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.587 ms - 149[0m
+[0mGET /img/g1.jpg [33m404 [0m0.179 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.176 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.964 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.235 ms - 161[0m
+[0mGET /img/l1.png [33m404 [0m0.221 ms - 149[0m
+[0mGET /img/b1.jpg [33m404 [0m0.150 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.270 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.183 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.170 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.155 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.105 ms - 161[0m
+[0mGET /img/l4.png [33m404 [0m0.213 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.345 ms - 149[0m
+[0mGET /img/logo.png [33m404 [0m0.590 ms - 151[0m
+[0mGET /img/g4.jpg [33m404 [0m0.175 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.128 ms - 149[0m
+[0mGET /img/g1.jpg [33m404 [0m0.145 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.153 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.240 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.221 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.448 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m1.301 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.147 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.231 ms - 161[0m
+[0mGET /img/l2.png [33m404 [0m0.172 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.174 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.176 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.108 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.105 ms - 161[0m
+[0mGET /whm-server-status [33m404 [0m0.883 ms - 156[0m
+[0mPOST /wls-wsat/CoordinatorPortType [33m404 [0m180.102 ms - 168[0m
+[0mGET /index.php [33m404 [0m0.842 ms - 148[0m
+[0mGET /phpmyadmin/index.php [33m404 [0m0.701 ms - 159[0m
+[0mGET /phpMyAdmin/index.php [33m404 [0m0.293 ms - 159[0m
+[0mGET /pmd/index.php [33m404 [0m0.382 ms - 152[0m
+[0mGET /pma/index.php [33m404 [0m0.293 ms - 152[0m
+[0mGET /PMA/index.php [33m404 [0m0.199 ms - 152[0m
+[0mGET /PMA2/index.php [33m404 [0m0.332 ms - 153[0m
+[0mGET /pmamy/index.php [33m404 [0m0.477 ms - 154[0m
+[0mGET /pmamy2/index.php [33m404 [0m0.430 ms - 155[0m
+[0mGET /mysql/index.php [33m404 [0m0.312 ms - 154[0m
+[0mGET /admin/index.php [33m404 [0m0.167 ms - 154[0m
+[0mGET /db/index.php [33m404 [0m0.231 ms - 151[0m
+[0mGET /dbadmin/index.php [33m404 [0m0.189 ms - 156[0m
+[0mGET /web/phpMyAdmin/index.php [33m404 [0m0.336 ms - 163[0m
+[0mGET /admin/pma/index.php [33m404 [0m0.194 ms - 158[0m
+[0mGET /admin/PMA/index.php [33m404 [0m0.180 ms - 158[0m
+[0mGET /admin/mysql/index.php [33m404 [0m0.248 ms - 160[0m
+[0mGET /admin/mysql2/index.php [33m404 [0m0.127 ms - 161[0m
+[0mGET /admin/phpmyadmin/index.php [33m404 [0m0.230 ms - 165[0m
+[0mGET /admin/phpMyAdmin/index.php [33m404 [0m0.114 ms - 165[0m
+[0mGET /admin/phpmyadmin2/index.php [33m404 [0m0.160 ms - 166[0m
+[0mGET /mysqladmin/index.php [33m404 [0m0.161 ms - 159[0m
+[0mGET /mysql-admin/index.php [33m404 [0m0.158 ms - 160[0m
+[0mGET /phpadmin/index.php [33m404 [0m0.342 ms - 157[0m
+[0mGET /phpmyadmin0/index.php [33m404 [0m0.222 ms - 160[0m
+[0mGET /phpmyadmin1/index.php [33m404 [0m0.299 ms - 160[0m
+[0mGET /phpmyadmin2/index.php [33m404 [0m0.323 ms - 160[0m
+[0mGET /myadmin/index.php [33m404 [0m0.159 ms - 156[0m
+[0mGET /myadmin2/index.php [33m404 [0m0.915 ms - 157[0m
+[0mGET /xampp/phpmyadmin/index.php [33m404 [0m0.393 ms - 165[0m
+[0mGET /phpMyadmin_bak/index.php [33m404 [0m0.372 ms - 163[0m
+[0mGET /www/phpMyAdmin/index.php [33m404 [0m1.085 ms - 163[0m
+[0mGET /tools/phpMyAdmin/index.php [33m404 [0m0.347 ms - 165[0m
+[0mGET /phpmyadmin-old/index.php [33m404 [0m0.145 ms - 163[0m
+[0mGET /phpMyAdminold/index.php [33m404 [0m0.138 ms - 162[0m
+[0mGET /phpMyAdmin.old/index.php [33m404 [0m0.117 ms - 163[0m
+[0mGET /pma-old/index.php [33m404 [0m0.157 ms - 156[0m
+[0mGET /claroline/phpMyAdmin/index.php [33m404 [0m0.130 ms - 169[0m
+[0mGET /typo3/phpmyadmin/index.php [33m404 [0m0.146 ms - 165[0m
+[0mGET /phpma/index.php [33m404 [0m0.111 ms - 154[0m
+[0mGET /phpmyadmin/phpmyadmin/index.php [33m404 [0m0.113 ms - 170[0m
+[0mGET /phpMyAdmin/phpMyAdmin/index.php [33m404 [0m0.180 ms - 170[0m
+[0mGET /img/logo.png [33m404 [0m0.199 ms - 151[0m
+[0mGET /img/g2.jpg [33m404 [0m0.178 ms - 149[0m
+[0mGET /img/g1.jpg [33m404 [0m0.145 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.132 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.178 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.109 ms - 161[0m
+[0mGET /img/b3.jpg [33m404 [0m0.151 ms - 149[0m
+[0mGET /img/b1.jpg [33m404 [0m0.137 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.106 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.117 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.092 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.110 ms - 161[0m
+[0mGET /img/l5.png [33m404 [0m0.150 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.144 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.110 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.090 ms - 161[0m
+[0mGET /img/logo.png [33m404 [0m0.204 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.158 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.222 ms - 161[0m
+[0mGET /img/g2.jpg [33m404 [0m0.130 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.126 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.120 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.157 ms - 161[0m
+[0mGET /img/b2.jpg [33m404 [0m0.274 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.165 ms - 149[0m
+[0mGET /img/b1.jpg [33m404 [0m0.180 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.140 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.130 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.207 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.152 ms - 161[0m
+[0mGET /img/l5.png [33m404 [0m0.175 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.137 ms - 149[0m
+[0mGET /img/logo.png [33m404 [0m0.199 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.223 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.157 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.133 ms - 161[0m
+[0mGET /img/g3.jpg [33m404 [0m0.098 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.136 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.107 ms - 161[0m
+[0mGET /img/l2.png [33m404 [0m0.260 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.161 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.656 ms - 149[0m
+[0mGET /img/b1.jpg [33m404 [0m0.099 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.112 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.212 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.156 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.077 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.115 ms - 161[0m
+[0mGET /img/logo.png [33m404 [0m0.317 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.177 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.157 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.239 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.206 ms - 161[0m
+[0mGET /img/g4.jpg [33m404 [0m0.152 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.585 ms - 149[0m
+[0mGET /img/b1.jpg [33m404 [0m2.954 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.137 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.077 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.148 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.144 ms - 161[0m
+[0mGET /img/fav.png [33m404 [0m0.277 ms - 150[0m
+[0mGET /img/fav.png [33m404 [0m0.146 ms - 150[0m
+[0mGET /img/logo.png [33m404 [0m0.181 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.203 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.170 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.113 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.136 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.149 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.115 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.179 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.090 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.087 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.106 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.130 ms - 161[0m
+[0mGET /img/b2.jpg [33m404 [0m0.127 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.110 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.183 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.238 ms - 161[0m
+[0mGET /img/l2.png [33m404 [0m0.126 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.123 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.149 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.136 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.105 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.174 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.154 ms - 161[0m
+[0mGET /img/l5.png [33m404 [0m0.103 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.864 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.125 ms - 149[0m
+[0mGET /img/logo.png [33m404 [0m0.181 ms - 151[0m
+[0mGET /whm-server-status [33m404 [0m0.350 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.136 ms - 156[0m
+[0mGET /phpmyadmin [33m404 [0m0.162 ms - 149[0m
+[0mGET /phpmyadmin [33m404 [0m0.160 ms - 149[0m
+[0mGET /whm-server-status [33m404 [0m0.126 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.151 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.113 ms - 156[0m
+[0mPOST /wls-wsat/CoordinatorPortType [33m404 [0m178.216 ms - 168[0m
+[0mGET /index.php [33m404 [0m0.190 ms - 148[0m
+[0mGET /phpmyadmin/index.php [33m404 [0m0.135 ms - 159[0m
+[0mGET /phpMyAdmin/index.php [33m404 [0m0.323 ms - 159[0m
+[0mGET /pmd/index.php [33m404 [0m0.157 ms - 152[0m
+[0mGET /pma/index.php [33m404 [0m0.115 ms - 152[0m
+[0mGET /PMA/index.php [33m404 [0m0.135 ms - 152[0m
+[0mGET /PMA2/index.php [33m404 [0m0.103 ms - 153[0m
+[0mGET /pmamy/index.php [33m404 [0m0.161 ms - 154[0m
+[0mGET /pmamy2/index.php [33m404 [0m0.161 ms - 155[0m
+[0mGET /mysql/index.php [33m404 [0m0.163 ms - 154[0m
+[0mGET /admin/index.php [33m404 [0m0.165 ms - 154[0m
+[0mGET /db/index.php [33m404 [0m0.148 ms - 151[0m
+[0mGET /dbadmin/index.php [33m404 [0m0.388 ms - 156[0m
+[0mGET /web/phpMyAdmin/index.php [33m404 [0m0.142 ms - 163[0m
+[0mGET /admin/pma/index.php [33m404 [0m0.144 ms - 158[0m
+[0mGET /admin/PMA/index.php [33m404 [0m0.132 ms - 158[0m
+[0mGET /admin/mysql/index.php [33m404 [0m0.187 ms - 160[0m
+[0mGET /admin/mysql2/index.php [33m404 [0m0.248 ms - 161[0m
+[0mGET /admin/phpmyadmin/index.php [33m404 [0m0.228 ms - 165[0m
+[0mGET /admin/phpMyAdmin/index.php [33m404 [0m0.164 ms - 165[0m
+[0mGET /admin/phpmyadmin2/index.php [33m404 [0m0.151 ms - 166[0m
+[0mGET /mysqladmin/index.php [33m404 [0m0.216 ms - 159[0m
+[0mGET /mysql-admin/index.php [33m404 [0m0.335 ms - 160[0m
+[0mGET /phpadmin/index.php [33m404 [0m0.166 ms - 157[0m
+[0mGET /phpmyadmin0/index.php [33m404 [0m0.176 ms - 160[0m
+[0mGET /phpmyadmin1/index.php [33m404 [0m0.174 ms - 160[0m
+[0mGET /phpmyadmin2/index.php [33m404 [0m0.157 ms - 160[0m
+[0mGET /myadmin/index.php [33m404 [0m0.147 ms - 156[0m
+[0mGET /myadmin2/index.php [33m404 [0m0.154 ms - 157[0m
+[0mGET /xampp/phpmyadmin/index.php [33m404 [0m0.148 ms - 165[0m
+[0mGET /phpMyadmin_bak/index.php [33m404 [0m0.170 ms - 163[0m
+[0mGET /www/phpMyAdmin/index.php [33m404 [0m0.235 ms - 163[0m
+[0mGET /tools/phpMyAdmin/index.php [33m404 [0m0.163 ms - 165[0m
+[0mGET /phpmyadmin-old/index.php [33m404 [0m0.167 ms - 163[0m
+[0mGET /phpMyAdminold/index.php [33m404 [0m0.155 ms - 162[0m
+[0mGET /phpMyAdmin.old/index.php [33m404 [0m0.213 ms - 163[0m
+[0mGET /pma-old/index.php [33m404 [0m0.233 ms - 156[0m
+[0mGET /claroline/phpMyAdmin/index.php [33m404 [0m0.180 ms - 169[0m
+[0mGET /typo3/phpmyadmin/index.php [33m404 [0m0.196 ms - 165[0m
+[0mGET /phpma/index.php [33m404 [0m0.184 ms - 154[0m
+[0mGET /phpmyadmin/phpmyadmin/index.php [33m404 [0m0.150 ms - 170[0m
+[0mGET /phpMyAdmin/phpMyAdmin/index.php [33m404 [0m0.192 ms - 170[0m
+[0mGET /whm-server-status [33m404 [0m0.115 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.142 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.158 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.111 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.107 ms - 156[0m
+[0mGET /img/logo.png [33m404 [0m0.685 ms - 151[0m
+[0mGET /img/g2.jpg [33m404 [0m0.166 ms - 149[0m
+[0mGET /img/g1.jpg [33m404 [0m0.142 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.164 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.161 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.201 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.192 ms - 161[0m
+[0mGET /img/b2.jpg [33m404 [0m0.145 ms - 149[0m
+[0mGET /img/b1.jpg [33m404 [0m0.144 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.453 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.181 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.143 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.173 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.160 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.156 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.916 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.220 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.146 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.118 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.104 ms - 161[0m
+[0mGET /img/b3.jpg [33m404 [0m0.102 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m1.127 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.231 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.187 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.161 ms - 149[0m
+[0mGET /whm-server-status [33m404 [0m0.119 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.166 ms - 156[0m
+[0mGET /img/fav.png [33m404 [0m0.168 ms - 150[0m
+[0mGET /img/logo.png [33m404 [0m0.149 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.169 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.146 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.149 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.169 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.136 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.232 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.088 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.155 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.118 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.200 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.093 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.153 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.140 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.175 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.094 ms - 161[0m
+[0mGET /whm-server-status [33m404 [0m0.128 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.114 ms - 156[0m
+error: Forever detected script was killed by signal: SIGTERM
+error: Script restart attempt #1
+listening on port:  80
+Hash: 396f0bfb9d565b6f60f0
+Version: webpack 1.12.14
+Time: 541ms
+
+ERROR in ./public/quickstart.js
+Module build failed: TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:7:11)
+    at Object.dirname (path.js:1330:5)
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:365:36
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:387:22
+    at Array.map (native)
+    at OptionManager.resolvePresets (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:376:20)
+    at OptionManager.mergePresets (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:360:10)
+    at OptionManager.mergeOptions (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:319:14)
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:361:14
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:381:24
+webpack: bundle is now VALID.
+[0mGET /whm-server-status [33m404 [0m3.245 ms - 156[0m
+error: Forever detected script was killed by signal: SIGTERM
+error: Script restart attempt #2
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 0.0.0.0:80
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1271:14)
+    at listen (net.js:1307:10)
+    at Server.listen (net.js:1403:5)
+    at EventEmitter.listen (/home/howdyweb/howdy_buddy/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/howdyweb/howdy_buddy/server.js:136:5)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+error: Forever detected script exited with code: 1
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 0.0.0.0:80
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1271:14)
+    at listen (net.js:1307:10)
+    at Server.listen (net.js:1403:5)
+    at EventEmitter.listen (/home/howdyweb/howdy_buddy/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/howdyweb/howdy_buddy/server.js:136:5)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+error: Forever detected script exited with code: 1
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 0.0.0.0:80
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1271:14)
+    at listen (net.js:1307:10)
+    at Server.listen (net.js:1403:5)
+    at EventEmitter.listen (/home/howdyweb/howdy_buddy/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/howdyweb/howdy_buddy/server.js:136:5)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+listening on port:  80
+Hash: 396f0bfb9d565b6f60f0
+Version: webpack 1.12.14
+Time: 537ms
+
+ERROR in ./public/quickstart.js
+Module build failed: TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:7:11)
+    at Object.dirname (path.js:1330:5)
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:365:36
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:387:22
+    at Array.map (native)
+    at OptionManager.resolvePresets (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:376:20)
+    at OptionManager.mergePresets (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:360:10)
+    at OptionManager.mergeOptions (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:319:14)
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:361:14
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:381:24
+webpack: bundle is now VALID.
+[0mGET /quickstart [36m301 [0m11.984 ms - 187[0m
+[0mGET /quickstart/ [32m200 [0m10.969 ms - 770[0m
+[0mGET /favicon.ico [33m404 [0m1.385 ms - 150[0m
+[0mGET /img/logo.png [33m404 [0m0.693 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.251 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.333 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.178 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.215 ms - 149[0m
+[0mGET /img/b1.jpg [33m404 [0m0.189 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.353 ms - 161[0m
+[0mGET /img/b2.jpg [33m404 [0m0.123 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.172 ms - 161[0m
+[0mGET /img/b3.jpg [33m404 [0m0.145 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.296 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.213 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.228 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.475 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.169 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.222 ms - 161[0m
+listening on port:  80
+Hash: 396f0bfb9d565b6f60f0
+Version: webpack 1.12.14
+Time: 549ms
+
+ERROR in ./public/quickstart.js
+Module build failed: TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:7:11)
+    at Object.dirname (path.js:1330:5)
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:365:36
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:387:22
+    at Array.map (native)
+    at OptionManager.resolvePresets (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:376:20)
+    at OptionManager.mergePresets (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:360:10)
+    at OptionManager.mergeOptions (/home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:319:14)
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:361:14
+    at /home/howdyweb/howdy_buddy/node_modules/babel-core/lib/transformation/file/options/option-manager.js:381:24
+webpack: bundle is now VALID.
+[0mGET /img/logo.png [33m404 [0m2.832 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.909 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.622 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.319 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.154 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.430 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.143 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.121 ms - 161[0m
+[0mGET /img/b3.jpg [33m404 [0m0.174 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.390 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.158 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.387 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.124 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.300 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.324 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.170 ms - 161[0m
+[0mGET /img/logo.png [33m404 [0m0.190 ms - 151[0m
+[0mGET /img/g2.jpg [33m404 [0m0.279 ms - 149[0m
+[0mGET /img/g1.jpg [33m404 [0m0.189 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.148 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.545 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.101 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.160 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.199 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.121 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.194 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.170 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.103 ms - 161[0m
+[0mGET /img/l5.png [33m404 [0m0.162 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.101 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.180 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.181 ms - 161[0m
+[0mGET /img/logo.png [33m404 [0m0.317 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.280 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.126 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.115 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.125 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.235 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.151 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.171 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.124 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.088 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.109 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.099 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.360 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.161 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.168 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.112 ms - 161[0m
+[0mGET /whm-server-status [33m404 [0m0.876 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.419 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.245 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.104 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.147 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.121 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.098 ms - 156[0m
+[0mGET /img/logo.png [33m404 [0m0.330 ms - 151[0m
+[0mGET /img/g2.jpg [33m404 [0m0.338 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.183 ms - 149[0m
+[0mGET /img/g1.jpg [33m404 [0m1.032 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.199 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.122 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.159 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m1.002 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.334 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.095 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.780 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.085 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.084 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.126 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.173 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.105 ms - 161[0m
+[0mGET /x [33m404 [0m0.199 ms - 140[0m
+[0mGET /img/logo.png [33m404 [0m0.137 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.207 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.164 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.247 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.095 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.210 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.179 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.197 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.151 ms - 161[0m
+[0mGET /img/b3.jpg [33m404 [0m0.215 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.166 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.146 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.093 ms - 161[0m
+[0mGET /img/l3.png [33m404 [0m0.131 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.144 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.565 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m1.524 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.176 ms - 149[0m
+[0mGET /img/logo.png [33m404 [0m0.206 ms - 151[0m
+[0mGET /whm-server-status [33m404 [0m0.133 ms - 156[0m
+[0mGET /img/g1.jpg [33m404 [0m0.193 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.209 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.083 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.126 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.118 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.144 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.100 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.083 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.085 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.079 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.075 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.223 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.092 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.097 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.086 ms - 161[0m
+[0mGET /img/logo.png [33m404 [0m0.156 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.141 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.115 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.217 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.099 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.193 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.137 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.083 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.094 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.383 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m1.000 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.175 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.109 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.085 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.124 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.138 ms - 161[0m
+[0mGET /whm-server-status [33m404 [0m0.107 ms - 156[0m
+[0mGET /img/logo.png [33m404 [0m0.150 ms - 151[0m
+[0mGET /img/g3.jpg [33m404 [0m0.207 ms - 149[0m
+[0mGET /img/g1.jpg [33m404 [0m0.165 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.128 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.106 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.119 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.159 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m2.576 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.082 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.093 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.423 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.155 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.398 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.196 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.138 ms - 161[0m
+[0mGET /img/l4.png [33m404 [0m0.163 ms - 149[0m
+[0mGET /whm-server-status [33m404 [0m0.098 ms - 156[0m
+[0mGET /img/logo.png [33m404 [0m0.168 ms - 151[0m
+[0mGET /img/g2.jpg [33m404 [0m0.160 ms - 149[0m
+[0mGET /img/g1.jpg [33m404 [0m0.136 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.098 ms - 149[0m
+[0mGET /img/b1.jpg [33m404 [0m0.118 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.083 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.142 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.105 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.099 ms - 161[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.102 ms - 161[0m
+[0mGET /img/l3.png [33m404 [0m0.180 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.073 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.099 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.608 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.139 ms - 161[0m
+[0mGET /img/l5.png [33m404 [0m0.140 ms - 149[0m
+[0mGET /img/logo.png [33m404 [0m0.171 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.163 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.110 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.185 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.195 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.137 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.143 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.072 ms - 161[0m
+[0mGET /img/b2.jpg [33m404 [0m0.193 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.112 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.156 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.078 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.167 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.144 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.211 ms - 161[0m
+[0mGET /img/l5.png [33m404 [0m0.223 ms - 149[0m
+[0mGET /img/b1.jpg [33m404 [0m0.164 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.109 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.087 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.126 ms - 161[0m
+[0mGET /img/b2.jpg [33m404 [0m0.079 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.164 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.125 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.227 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.784 ms - 149[0m
+[0mGET /img/fav.png [33m404 [0m0.184 ms - 150[0m
+[0mGET /whm-server-status [33m404 [0m0.132 ms - 156[0m
+[0mGET /img/g2.jpg [33m404 [0m0.212 ms - 149[0m
+[0mGET /img/g1.jpg [33m404 [0m0.078 ms - 149[0m
+[0mGET /img/logo.png [33m404 [0m0.073 ms - 151[0m
+[0mGET /img/g3.jpg [33m404 [0m0.081 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.079 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.489 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.644 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.070 ms - 161[0m
+[0mGET /img/b3.jpg [33m404 [0m0.070 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.069 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.170 ms - 161[0m
+[0mGET /img/l1.png [33m404 [0m0.082 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.097 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.106 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.073 ms - 149[0m
+[0mGET /img/fav.png [33m404 [0m0.187 ms - 150[0m
+[0mGET /img/l5.png [33m404 [0m0.088 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.154 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.095 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.084 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.097 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.085 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.074 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.112 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.109 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.872 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.144 ms - 149[0m
+[0mGET /img/logo.png [33m404 [0m0.136 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.122 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.136 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.085 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.068 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.094 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.166 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.177 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.079 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.160 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.258 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.118 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.930 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.114 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.087 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.149 ms - 161[0m
+[0mGET /whm-server-status [33m404 [0m0.167 ms - 156[0m
+[0mGET /whm-server-status [33m404 [0m0.096 ms - 156[0m
+[0mGET /img/logo.png [33m404 [0m0.135 ms - 151[0m
+[0mGET /img/g1.jpg [33m404 [0m0.221 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.266 ms - 149[0m
+[0mGET /img/g3.jpg [33m404 [0m0.153 ms - 149[0m
+[0mGET /img/g4.jpg [33m404 [0m0.123 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.096 ms - 161[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.109 ms - 161[0m
+[0mGET /img/b1.jpg [33m404 [0m0.153 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.232 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.130 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.166 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.157 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.102 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.116 ms - 149[0m
+[0mGET /img/l5.png [33m404 [0m0.112 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.135 ms - 161[0m
+[0mGET /whm-server-status [33m404 [0m0.133 ms - 156[0m
+[0mGET /img/logo.png [33m404 [0m0.145 ms - 151[0m
+[0mGET /img/g4.jpg [33m404 [0m0.182 ms - 149[0m
+[0mGET /img/g1.jpg [33m404 [0m0.109 ms - 149[0m
+[0mGET /img/elements/user1.png [33m404 [0m0.088 ms - 161[0m
+[0mGET /img/g3.jpg [33m404 [0m0.128 ms - 149[0m
+[0mGET /img/g2.jpg [33m404 [0m0.123 ms - 149[0m
+[0mGET /img/b2.jpg [33m404 [0m0.211 ms - 149[0m
+[0mGET /img/b1.jpg [33m404 [0m0.087 ms - 149[0m
+[0mGET /img/b3.jpg [33m404 [0m0.067 ms - 149[0m
+[0mGET /img/l1.png [33m404 [0m0.144 ms - 149[0m
+[0mGET /img/l2.png [33m404 [0m0.124 ms - 149[0m
+[0mGET /img/elements/user2.png [33m404 [0m0.130 ms - 161[0m
+[0mGET /img/l5.png [33m404 [0m0.144 ms - 149[0m
+[0mGET /img/l3.png [33m404 [0m0.137 ms - 149[0m
+[0mGET /img/l4.png [33m404 [0m0.125 ms - 149[0m
+[0mGET /img/call-action-bg.jpg [33m404 [0m0.157 ms - 161[0m
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 0.0.0.0:80
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1271:14)
+    at listen (net.js:1307:10)
+    at Server.listen (net.js:1403:5)
+    at EventEmitter.listen (/home/howdyweb/howdy_buddy/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/howdyweb/howdy_buddy/server.js:136:5)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
